@@ -137,7 +137,8 @@ header .container {
     font-size: 16px;
 }
 
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
     color: var(--accent-color-accent);
 }
 
@@ -158,7 +159,8 @@ header .link, .logo-list {
     color: var(--title-text-color);
 }
 
-.logo-list:hover, .logo-list:focus {
+.logo-list:hover,
+.logo-list:focus {
     color: var(--accent-color-accent);
 }
 
@@ -204,7 +206,6 @@ header .link, .logo-list {
 .footer-txt {
     padding-top: 12px;
     padding: bottom 20px;
-    ;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -246,7 +247,6 @@ header .link, .logo-list {
     align-items: center;
     justify-content: center;
     background-image: url(../images/icons/bgradve.svg#icon-bgradve);
-    width: 270px;
     height: 120px;
 }
 
@@ -309,9 +309,12 @@ header .link, .logo-list {
 /* main section 1 */
 
 .pic {
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(..//images/bgdimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pic-backround {
@@ -416,7 +419,8 @@ header .link, .logo-list {
     fill: var(--color-icons)
 }
 
-.list-clients-icons-item:hover, .list-clients-icons-item:focus {
+.list-clients-icons-item:hover, 
+.list-clients-icons-item:focus {
     fill: var(--accent-color-accent);
     border: 1px solid var(--accent-color-accent)
 }
@@ -428,8 +432,8 @@ header .link, .logo-list {
 }
 
 .social-icon-item {
-width: 20px;
-height: 20px;
+    width: 20px;
+    height: 20px;
 } 
 .clients-icons {
     width: 106px;
@@ -449,7 +453,8 @@ height: 20px;
     fill: var(--color-icons)
 }
 
-.caption-icon:hover, .caption-icon:focus {
+.caption-icon:hover, 
+.caption-icon:focus {
     background-color: var(--accent-color-accent);
     fill: var(--focus-color-text)
 }
@@ -531,14 +536,11 @@ height: 20px;
     flex-direction: column;
 }
 
-.portfolio-link {}
-
 .portfolio-link:hover, .portfolio-link:focus {
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
+/* portfolio batton */
 .btn-list {
     display: flex;
     justify-content: center;
